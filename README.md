@@ -1,4 +1,7 @@
-# Templates para Trabalhos de Sistemas Distribuídos - UCPel
+<img src="https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL/blob/main/img/logo_UCPEL.png?raw=true" alt="Logo" width="100">
+
+
+# Templates para Trabalhos de Sistemas Distribuídos 
 
 Este repositório contém templates para a formatação de trabalhos da disciplina de **Sistemas Distribuídos (SD)** da **Universidade Católica de Pelotas (UCPel)**. Os templates foram criados para facilitar a estruturação dos documentos acadêmicos, garantindo conformidade com as normas exigidas.
 
