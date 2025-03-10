@@ -1,4 +1,3 @@
-
 <img src="https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL/blob/main/img/logo_UCPEL.png?raw=true" alt="Logo" width="100">
 
 
