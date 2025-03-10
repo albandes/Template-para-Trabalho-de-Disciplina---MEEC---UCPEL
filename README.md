@@ -37,4 +37,3 @@ desejado no GitHub.
 4.  Clique em **"Recompile"** para visualizar o documento.
 
 Agora você pode editar o template conforme necessário! Se precisar de pacotes adicionais, pode instalá-los diretamente no Overleaf através do comando `\usepackage{pacote}` no preâmbulo do documento.
-
