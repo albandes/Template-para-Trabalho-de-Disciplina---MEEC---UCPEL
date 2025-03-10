@@ -15,8 +15,8 @@
 	oneside,			% para impressão apenas frente. Oposto a twoside
 	a4paper,			% tamanho do papel. 
 	% -- opções da classe abntex2 --
-	chapter=TITLE,		% títulos de capítulos em letras maiúsculas
-	section=TITLE,		% títulos de seções em letras maiúsculas
+	%chapter=TITLE,		% títulos de capítulos em letras maiúsculas
+	%section=TITLE,		% títulos de seções em letras maiúsculas
 	%subsection=TITLE,	% títulos de subseções em letras maiúsculas
 	%subsubsection=TITLE % títulos de subsubseções em letras maiúsculas
 	% -- opções do pacote babel --
@@ -103,6 +103,118 @@
 % Configuração pacote enumitem (itemize, enumerate)
 \setlist{parsep=0pt, leftmargin=1.3cm}
 
+
+%--------------------------
+%--------------------------
+%--------------------------
+% - https://pt.overleaf.com/learn/latex/Code_listing 
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% --- Json e SQL ------------------------------------------------
+\usepackage{listings}
+\usepackage{xcolor}
+
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+
+\lstdefinelanguage{json}{
+    %basicstyle=\normalfont\ttfamily,
+    basicstyle=\fontsize{8}{10}\ttfamily,
+    %numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background},
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1},
+}
+
+\lstdefinelanguage{albandesSQL}{
+    language=SQL,
+    keywordstyle=\color{blue},
+    %basicstyle=\normalfont\ttfamily,
+    basicstyle=\fontsize{8}{10}\ttfamily,
+    numbers=none,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background},
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1}
+}
+\lstdefinelanguage{albandes_json}{
+    %basicstyle=\normalfont\ttfamily,
+    basicstyle=\fontsize{8}{10}\ttfamily,
+    %numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background}
+}
+
+% --- Fim Json e SQL -------------------------------
+% --- Algoritmo -----------
+\usepackage{algcompatible}
+% OR \usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\makeatletter
+% Reinsert missing \algbackskip
+\def\algbackskip{\hskip-\ALG@thistlm}
+\makeatother
+
+\usepackage{fixltx2e}
+\usepackage{amsmath}
+% --- [FIM] Algoritmo -----------
+%--------------------------
+%--------------------------
+%--------------------------
 
 % ----
 % Início do documento

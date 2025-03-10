@@ -1,5 +1,17 @@
 \section{Introdução}
 
+A introdução é uma das seções mais importantes do artigo, pois estabelece o contexto do problema e motiva a pesquisa. Ela deve conter:
+\begin{itemize}
+    \item Contexto do problema: Explique a área de pesquisa e o problema específico abordado. Relacione com situações do mundo real quando apropriado.
+
+\item  Relevância: Justifique por que o problema merece ser estudado. Apresente estatísticas ou exemplos que demonstrem sua importância prática ou teórica.
+
+\item Objetivos do estudo: Descreva o que o artigo busca resolver, responder ou contribuir.
+
+\item Estrutura do artigo: Dê uma visão geral das próximas seções, explicando brevemente o conteúdo de cada uma.
+\end{itemize}
+\subsection{Uso de Overleaf e do Latex}
+
 O uso do \textbf{Overleaf} e do \textbf{LaTeX} é altamente benéfico para alunos de mestrado, especialmente aqueles que precisam produzir dissertações, artigos científicos e relatórios técnicos de alta qualidade. Diferente dos processadores de texto convencionais, o \LaTeX\ permite um controle preciso da formatação, garantindo a correta estruturação de referências, equações matemáticas e tabelas complexas. Além disso, ele segue padrões acadêmicos reconhecidos internacionalmente, facilitando a submissão de trabalhos para conferências e periódicos.  
 
 O Overleaf, por sua vez, é uma plataforma colaborativa baseada em nuvem que simplifica o uso do \LaTeX\, eliminando a necessidade de instalar pacotes localmente. Isso possibilita que alunos e orientadores trabalhem simultaneamente no mesmo documento, facilitando revisões e ajustes em tempo real. Além disso, o Overleaf conta com templates prontos para diversas universidades e publicações científicas, o que agiliza a escrita acadêmica ao reduzir o tempo gasto com ajustes de formatação.  
@@ -10,11 +22,32 @@ Além da qualidade tipográfica superior, o \LaTeX\ também é muito útil para 
 
 Por fim, ao utilizar o Overleaf e \LaTeX\, o aluno de mestrado desenvolve habilidades valiosas para a pesquisa acadêmica e a produção científica, preparando-se melhor para um futuro na academia ou na indústria. O domínio dessas ferramentas proporciona mais eficiência, organização e profissionalismo na apresentação dos trabalhos, tornando-os mais claros e acessíveis para a comunidade científica.
 
+\section{Trabalhos Relacionados}
+Esta seção é essencial para situar seu trabalho na literatura existente. Deve incluir:
+\begin{itemize}
+    \item Revisão de literatura: Apresente estudos anteriores relevantes sobre o tema, citando referências acadêmicas recentes.
 
+    \item Comparativo com seu trabalho: Explique como seu estudo se diferencia dos existentes. Destaque as limitações das soluções anteriores e como sua abordagem propõe melhorias.
 
+    \item Organização lógica: Agrupe os trabalhos relacionados em categorias (exemplo: por abordagem, por tipo de problema resolvido, etc.) para facilitar a leitura e a compreensão.
 
+\end{itemize}
 
-\section{Desenvolvimento}
+\section{Metodologia}
+
+Nesta seção, explique como sua pesquisa foi conduzida. Isso garante reprodutibilidade e transparência. Inclua:
+
+\begin{itemize}
+    \item Abordagem adotada: Explique se o estudo é experimental, teórico, simulação ou baseado em análise de dados.
+
+    \item Detalhamento dos métodos: Descreva os algoritmos, modelos matemáticos ou abordagens utilizadas.
+
+    \item Ferramentas e Tecnologias: Cite linguagens de programação, frameworks e hardware utilizados.
+
+    \item Bases de dados: Se aplicável, informe quais bases de dados foram usadas para validação.
+
+    \item Critérios de avaliação: Defina métricas utilizadas para avaliar os resultados (exemplo: tempo de execução, precisão, eficiência).
+\end{itemize}
 
 \subsection{Citações}
 
@@ -60,24 +93,6 @@ Para evitar que um parágrafo seja interrompido por figuras, você pode utilizar
 
 \subsubsection{Figuras em minipages}
 \emph{Minipages} são utilizadas para organizar textos, imagens ou outros elementos dentro de quadros com tamanhos e posições controladas. Esse recurso é especialmente útil para alinhar conteúdos lado a lado sem depender da estrutura padrão de colunas. Veja, por exemplo, a \autoref{fig_minipage_imagem1} e a \autoref{fig_minipage_grafico2}.
-
-% \begin{figure}[htb]
-%  \label{teste}
-%  \centering
-%   \begin{minipage}{0.4\textwidth}
-%     \centering
-%     \caption{Imagem 1 da minipage} \label{fig_minipage_imagem1}
-%     \includegraphics[scale=0.9]{img/abntex2-modelo-img-marca.pdf}
-%     \legend{Fonte: Produzido pelos autores}
-%   \end{minipage}
-%   \hfill
-%   \begin{minipage}{0.4\textwidth}
-%     \centering
-%     \caption{Gráfico 2 da minipage} \label{fig_minipage_grafico2}
-%     \includegraphics[scale=0.2]{img/abntex2-modelo-img-grafico.pdf}
-%     \legend{Fonte: \cite{nunes2011associations} }
-%   \end{minipage}
-% \end{figure}
 
 \begin{figure}[htb]
  \label{teste}
@@ -172,16 +187,129 @@ Um exemplo de equação destacada pode ser observado na \autoref{eq:exemplo-1}, 
     v_j(n+1) = v_j(n) + \Delta v_j(n) =  v_j(n) - \eta_v\cdot\nabla_{v_j}E(n) = v_j(n) - \eta_v\cdot\frac{\partial E(n)}{\partial v_j(n)}
 \end{equation}
 
+\subsection{\textit{Listing}}
 
-% Início dos anexos
-%\newpage
-%\section{Anexos} % Título opcional para os anexos
-% \appendix
-% \addcontentsline{toc}{section}{Anexos} % Adiciona "Anexos" ao sumário
+No \LaTeX\, \textit{listings} são um ambiente específico para exibição de código-fonte de forma formatada. Eles são gerenciados pelo pacote listings, que permite destacar a sintaxe de diversas linguagens de programação, ajustar a formatação do código e até mesmo adicionar numeração de linhas. O \textit{listings} é muito útil para exibir trechos de código de maneira organizada e fácil de ler. Na Listagem~\ref{lst:json}, apresentamos um exemplo no formato JSON.
 
-% \clearpage % Inicia o primeiro anexo em uma nova página
-% \section{Primeiro Anexo}
-% \lipsum[3] 
-% \clearpage % Inicia o segundo anexo em uma nova página
-% \section{Segundo Anexo}
-% \lipsum[4] 
+    \begin{lstlisting}[language=json,caption={Leiaute do Campo de Auditoria do Banco de Dados},label={lst:json},firstnumber=1]
+    {
+    	"audit": {
+    		"id": "column ID",
+    		"database": "database name",
+    		"table": "table name",
+    		"user_app":"EXEHDA's user",
+    		"dml": {
+    			"action": "action type, ex. DELETE",
+    			"timestamp": "date and time",
+    			"user": "database user",
+    			"ip": "connection Ip Address"
+    		},
+    		"row": {
+    			"old_row": [{data before movement}],
+    			"new_row": [{data after movement}]
+    		}
+    	}
+    }
+    \end{lstlisting}  
+
+     Na Listagem~\ref{lst:trigger}, apresentamos um exemplo de código SQL, que ilustra a criação e utilização de um \textit{trigger} para automação de operações no banco de dados.
+
+    \begin{lstlisting}[language=albandesSQL,caption={Sintaxe do \textit{Trigger} do Banco de Dados Mysql},label={lst:trigger},firstnumber=1]
+    CREATE
+        [DEFINER = user]
+        TRIGGER [IF NOT EXISTS] trigger_name
+        trigger_time trigger_event
+        ON tbl_name FOR EACH ROW
+        [trigger_order]
+        /* trigger_body */
+    \end{lstlisting}   
+
+    \subsection{\textit{Algorithm}}
+
+    No LaTeX, o \textit{algorithm} é um ambiente utilizado para escrever e formatar algoritmos de forma estruturada e legível. Esse ambiente permite a descrição clara de procedimentos e fluxos lógicos, facilitando a compreensão de algoritmos por leitores e pesquisadores.
+
+    A utilização do ambiente \textit{algorithm} no LaTeX é especialmente útil em documentos acadêmicos da área de computação, matemática e engenharia, onde a clareza e a padronização da apresentação de algoritmos são fundamentais para a correta interpretação dos conceitos descritos. 
+
+    No Algorithm~\ref{alg:apriori}, é exemplificada a descrição do Algoritmo Apriori, um dos métodos mais conhecidos e eficientes para a descoberta de padrões frequentes, sendo amplamente utilizado para a mineração de regras de associação em grandes conjuntos de dados~~\cite{Agrawal1994}.
+
+    \begin{algorithm}
+    \caption{Apriori Algorithm}\label{alg:apriori}
+    \hspace*{\algorithmicindent} \textbf{Input} D: Input Dataset \\
+    \hspace*{\algorithmicindent} \hspace{0.85cm} minSup: minimum support threshold \\    
+    \hspace*{\algorithmicindent} \textbf{Output} All 2 to \textit{k}-frequent itemsets
+    
+    \begin{algorithmic}[1]
+
+    \State \textit{L}\textsubscript{\textit{1}} = \{\textit{1}-\textit{frequent itemset}\}
+
+    \For{(k=2; $\textit{L}\textsubscript{k-1} \not= \varphi$; \textit{k}++  )}
+        \State \textit{C}\textsubscript{\textit{k}} = \textit{apriori\_gen}(\textit{L}\textsubscript{\textit{k}-\textit{1}})
+
+        \ForEach {\textit{transaction  t in D}}
+            \State \textit{C}\textsubscript{\textit{t}} = \textit{subset(\textit{C}\textsubscript{\textit{k}},t)}
+            \ForEach{\textit{C} in \textit{C}\textsubscript{\textit{t}}}
+                \State \textit{c.count}++
+            \EndFor
+        \EndFor
+        \State $ \textit{L}\textsubscript{\textit{k}} = \{\textit{c}  \in \textit{C}\textsubscript{\textit{k}} \mid  \textit{\textit{c.count}} \geq \textit{minSup} \}$ 
+
+    \EndFor        
+        
+    \Return  \textit{U}\textsubscript{\textit{k}}\textit{L}\textsubscript{\textit{k}}     
+ 
+    \end{algorithmic}
+    \end{algorithm}
+
+
+    No Algorithm~\ref{alg:busca}, é apresentado um exemplo da descrição do algoritmo de busca binária, um método eficiente utilizado para localizar um elemento em uma lista ordenada. Esse algoritmo funciona ao dividir repetidamente o intervalo de pesquisa pela metade, comparando o valor buscado com o elemento central da lista, e ajustando a busca para a metade que contém o valor até encontrá-lo ou concluir que ele não está presente~\cite{Cormen2009}.
+    
+    \begin{algorithm}
+    \caption{Busca Binária}
+    \label{alg:busca}
+    \begin{algorithmic}[1]
+        \Procedure{BuscaBinária}{array, elemento}
+            \State esquerda $\gets$ 0
+            \State direita $\gets$ tamanho do array - 1
+            \While{esquerda $\leq$ direita}
+                \State meio $\gets$ (esquerda + direita) / 2
+                \If{array[meio] = elemento}
+                    \State \textbf{retorne} meio
+                \ElsIf{array[meio] $<$ elemento}
+                    \State esquerda $\gets$ meio + 1
+                \Else
+                    \State direita $\gets$ meio - 1
+                \EndIf
+            \EndWhile
+            \State \textbf{retorne} -1
+        \EndProcedure
+    \end{algorithmic}
+\end{algorithm}
+
+\section{ Resultados e Discussão}
+
+Os resultados devem ser apresentados de forma clara e objetiva. Esta seção inclui:
+
+\begin{itemize}
+    \item Apresentação dos dados: Utilize tabelas, gráficos e diagramas para visualizar os resultados.
+
+    \item  Análise quantitativa e qualitativa: Interprete os dados obtidos, comparando-os com métodos anteriores.
+
+    \item Validação estatística: Se aplicável, inclua testes estatísticos para confirmar a validade dos resultados.
+
+    \item Discussão crítica: Explique possíveis limitações e o impacto dos resultados para a área de estudo.
+
+\end{itemize}
+
+\section{ Conclusão e Trabalhos Futuros}
+
+A conclusão deve sintetizar as principais descobertas do estudo e sugerir próximos passos. Deve incluir:
+
+\begin{itemize}
+    \item Resumo das contribuições: Reafirme os principais avanços trazidos pelo trabalho.
+
+    \item Implicâncias práticas e teóricas: Discuta como os resultados podem ser aplicados na indústria ou em futuras pesquisas.
+
+    \item Sugestões para trabalhos futuros: Aponte direções para pesquisas futuras, como melhorias no método, novas aplicações ou extensões do estudo.
+
+\end{itemize}
+
