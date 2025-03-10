@@ -1,4 +1,8 @@
-# Templates para Trabalhos de Sistemas Distribuídos - UCPel
+
+<img src="https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL/blob/main/img/logo_UCPEL.png?raw=true" alt="Logo" width="100">
+
+
+# Templates para Trabalhos de Sistemas Distribuídos 
 
 Este repositório contém templates para a formatação de trabalhos da disciplina de **Sistemas Distribuídos (SD)** da **Universidade Católica de Pelotas (UCPel)**. Os templates foram criados para facilitar a estruturação dos documentos acadêmicos, garantindo conformidade com as normas exigidas.
 
@@ -34,4 +38,3 @@ desejado no GitHub.
 4.  Clique em **"Recompile"** para visualizar o documento.
 
 Agora você pode editar o template conforme necessário! Se precisar de pacotes adicionais, pode instalá-los diretamente no Overleaf através do comando `\usepackage{pacote}` no preâmbulo do documento.
-
