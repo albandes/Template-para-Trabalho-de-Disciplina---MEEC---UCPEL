@@ -16,6 +16,8 @@ Este repositório contém templates para a formatação de trabalhos da discipli
 
 #### **1. Baixar o Template do GitHub**
 
+[![Último Release](https://img.shields.io/github/v/release/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL?style=for-the-badge)](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL/releases/latest)
+
 1.  Acesse o repositório do [Template no GitHub](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL).
 2.  Na página principal do repositório, clique no botão verde **"Code"**.
 3.  Selecione **"Download ZIP"** para baixar todos os arquivos do projeto.
@@ -35,3 +37,5 @@ Este repositório contém templates para a formatação de trabalhos da discipli
 4.  Clique em **"Recompile"** para visualizar o documento.
 
 Agora você pode editar o template conforme necessário! Se precisar de pacotes adicionais, pode instalá-los diretamente no Overleaf através do comando `\usepackage{pacote}` no preâmbulo do documento.
+
+A versão mais recente do projeto é: `![GitHub release](https://img.shields.io/github/v/release/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL)`
