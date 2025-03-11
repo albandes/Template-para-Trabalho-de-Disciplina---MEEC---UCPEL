@@ -16,7 +16,7 @@ Este repositório contém templates para a formatação de trabalhos da discipli
 
 #### **1. Baixar o Template do GitHub**
 
-1.  Acesse o repositório do [do Template no GitHub](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL).
+1.  Acesse o repositório do [Template no GitHub](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL).
 2.  Na página principal do repositório, clique no botão verde **"Code"**.
 3.  Selecione **"Download ZIP"** para baixar todos os arquivos do projeto.
 4.  Extraia os arquivos do ZIP em seu computador.
