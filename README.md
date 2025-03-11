@@ -30,7 +30,7 @@ Este repositório contém templates para a formatação de trabalhos da discipli
 #### **3. Configurar e Usar o Template**
 
 1.  O Overleaf extrairá os arquivos e criará o projeto.
-2.  Verifique se o arquivo principal do documento (geralmente `main.tex` ou `thesis.tex`) está correto.
+2.  Verifique se o arquivo principal do documento ( `main.tex`) está correto.
 3.  Se necessário, ajuste as configurações do compilador (como **XeLaTeX** ou **LuaLaTeX**) em **Menu > Compiler**.
 4.  Clique em **"Recompile"** para visualizar o documento.
 
