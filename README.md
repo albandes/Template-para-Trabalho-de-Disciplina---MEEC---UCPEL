@@ -16,13 +16,16 @@ Este repositório contém templates para a formatação de trabalhos da discipli
 
 #### **1. Baixar o Template do GitHub**
 
-[![Último Release](https://img.shields.io/github/v/release/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL?style=for-the-badge)](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL/releases/latest)
+1. Clique no botão abaixo e realize o download:
 
+   [![Último Release](https://img.shields.io/github/v/release/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL?style=for-the-badge)](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL/releases/latest)
+
+<!--   
 1.  Acesse o repositório do [Template no GitHub](https://github.com/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL).
 2.  Na página principal do repositório, clique no botão verde **"Code"**.
 3.  Selecione **"Download ZIP"** para baixar todos os arquivos do projeto.
 4.  Extraia os arquivos do ZIP em seu computador.
-
+-->
 #### **2. Criar um Novo Projeto no Overleaf**
 
 1.  Acesse [Overleaf](https://www.overleaf.com/) e faça login.
@@ -32,10 +35,10 @@ Este repositório contém templates para a formatação de trabalhos da discipli
 #### **3. Configurar e Usar o Template**
 
 1.  O Overleaf extrairá os arquivos e criará o projeto.
-2.  Verifique se o arquivo principal do documento ( `main.tex`) está correto.
+2.  Verifique se o arquivo principal do documento (`main.tex`) está correto.
 3.  Se necessário, ajuste as configurações do compilador (como **XeLaTeX** ou **LuaLaTeX**) em **Menu > Compiler**.
 4.  Clique em **"Recompile"** para visualizar o documento.
 
 Agora você pode editar o template conforme necessário! Se precisar de pacotes adicionais, pode instalá-los diretamente no Overleaf através do comando `\usepackage{pacote}` no preâmbulo do documento.
 
-A versão mais recente do projeto é: `![GitHub release](https://img.shields.io/github/v/release/albandes/Template-para-Trabalho-de-Disciplina---MEEC---UCPEL)`
+
